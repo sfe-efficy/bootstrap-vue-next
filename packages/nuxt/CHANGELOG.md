@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.2.0](https://github.com/sfe-efficy/bootstrap-vue-next/compare/nuxt-v0.1.3...nuxt-v0.2.0) (2023-07-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* **useBreadcrumb:** no longer require createBreadcrumb to be called for global state to work... It will now work out of the box. No extra calls needed. Simply use useBreadcrumb throughout the app and enjoy global state. A remedy is to global search for createBreadcrumb and remove it, it is not needed and not exported.
+
+### Features
+
+* BOffcanvas & BModal body scrolling prevented ([af0a97d](https://github.com/sfe-efficy/bootstrap-vue-next/commit/af0a97df8a2a4b44bd0364de6e262db5b1809d3d))
+* reusing logical of import from nuxt\src\utils\parseActiveImports.ts ([c4dc367](https://github.com/sfe-efficy/bootstrap-vue-next/commit/c4dc3677f5194767cffa2cc1449b225fa8340dc9))
+* **useBreadcrumb:** no longer require createBreadcrumb to be called for global state to work... It will now work out of the box. No extra calls needed. Simply use useBreadcrumb throughout the app and enjoy global state. A remedy is to global search for createBreadcrumb and remove it, it is not needed and not exported. ([4c6275d](https://github.com/sfe-efficy/bootstrap-vue-next/commit/4c6275df98907f50e3b348d9cdd50070f2d80e52))
+
+
+### Bug Fixes
+
+* **BFormFile:** ModelValue not synced up when using reset ([af0a97d](https://github.com/sfe-efficy/bootstrap-vue-next/commit/af0a97df8a2a4b44bd0364de6e262db5b1809d3d))
+* **BFormFile:** unnecessary wrapper element ([af0a97d](https://github.com/sfe-efficy/bootstrap-vue-next/commit/af0a97df8a2a4b44bd0364de6e262db5b1809d3d))
+* defineSlot issues ([bb72530](https://github.com/sfe-efficy/bootstrap-vue-next/commit/bb725308fe5805f3a78318613d538171a9d3ee29))
+* import interface from other vue file ([bb72530](https://github.com/sfe-efficy/bootstrap-vue-next/commit/bb725308fe5805f3a78318613d538171a9d3ee29))
+* no-dupe-keys issues ([bb72530](https://github.com/sfe-efficy/bootstrap-vue-next/commit/bb725308fe5805f3a78318613d538171a9d3ee29))
+* readonly some refs ([af0a97d](https://github.com/sfe-efficy/bootstrap-vue-next/commit/af0a97df8a2a4b44bd0364de6e262db5b1809d3d))
+* scss ([02750f5](https://github.com/sfe-efficy/bootstrap-vue-next/commit/02750f5e5c2d93d3486a5cdaa363763a6a18c239))
+* types generation ([9537680](https://github.com/sfe-efficy/bootstrap-vue-next/commit/953768011c1f49a560c878babcf400ef765b8190))
+
 ## [0.1.3](https://github.com/bootstrap-vue-next/bootstrap-vue-next/compare/nuxt-v0.1.2...nuxt-v0.1.3) (2023-07-01)
 
 
